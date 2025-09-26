@@ -1,0 +1,25 @@
+{
+	"name": "DS_Source_Global_Parameter",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_Source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "abdata.csv",
+				"folderPath": "Source",
+				"fileSystem": "adlsgen2container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "LS_AzureKeyVault1_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://ADF-keyvault-vishnu-dev.vault.azure.net/"
+		}
+	}
+}

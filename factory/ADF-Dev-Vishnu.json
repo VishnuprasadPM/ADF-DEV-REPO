@@ -1,0 +1,21 @@
+{
+	"name": "ADF-Dev-Vishnu",
+	"properties": {
+		"globalParameters": {
+			"Conatiner": {
+				"type": "string",
+				"value": "adlsgen2course"
+			},
+			"filepath": {
+				"type": "string",
+				"value": "Target"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "40f48d09-84b5-40ba-9e94-7495b3785fe5",
+		"tenantId": "6c125c3b-94fc-4044-9133-a14b18e24379"
+	}
+}
