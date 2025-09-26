@@ -1,0 +1,10 @@
+{
+	"Conatiner": {
+		"type": "string",
+		"value": "adlsgen2course"
+	},
+	"filepath": {
+		"type": "string",
+		"value": "Target"
+	}
+}
